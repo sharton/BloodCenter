@@ -1,0 +1,6 @@
+services:
+  blood_center_entity.admin.announcement:
+        class: BloodCenter\EntityBundle\Admin\AnnouncementAdmin
+        arguments: [~, BloodCenter\EntityBundle\Entity\Announcement, SonataAdminBundle:CRUD]
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: admin, label: Announcement }
