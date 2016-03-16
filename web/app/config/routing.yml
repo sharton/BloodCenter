@@ -1,4 +1,3 @@
-
 # FOSUserBundle's routing
 fos_user_security:
   resource: "@FOSUserBundle/Resources/config/routing/security.xml"
@@ -32,3 +31,8 @@ _sonata_admin:
   resource: .
   type: sonata_admin
   prefix: /admin
+
+#MainBundle
+blood_center_main:
+    resource: "@BloodCenterMainBundle/Resources/config/routing.yml"
+    prefix:   /

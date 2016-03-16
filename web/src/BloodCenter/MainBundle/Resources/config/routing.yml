@@ -1,0 +1,3 @@
+main_main_index:
+    path:     /
+    defaults: { _controller: BloodCenterMainBundle:Main:index }
