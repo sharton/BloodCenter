@@ -11,6 +11,8 @@ class MainControllerTest extends WebTestCase
         $client = static::createClient();
 
         $crawler = $client->request('GET', '/');
+        $this->assertGreaterThan(0, $crawler->filter("html:contains('Our Portfolio')")->count()
+        );
     }
 
 }
