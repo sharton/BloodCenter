@@ -1,11 +1,11 @@
-#BloodCenter
+#Онлайн Центр Крови в Кыргызстане
 
-## Service for donating blood and helping each other
+## Бесплатный онлайн ресурс, где нуждающийся в крови смогут найти доноров.
 
 ### Requirements:
  
 1. php: >=5.5.9
-2. symfony: 3.0.*
+2. symfony: 2.7.*
 
 
 
@@ -25,6 +25,6 @@ composer update
 #####Finally you can run project by:
 
 ```
-php bin/console server:start 
+php app/console server:run 
 ```
 #####command.

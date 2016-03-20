@@ -28,6 +28,7 @@ class AppKernel extends Kernel
             //activate application
             new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
             new BloodCenter\EntityBundle\BloodCenterEntityBundle(),
+            new BloodCenter\MainBundle\BloodCenterMainBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
