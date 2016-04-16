@@ -1,13 +1,8 @@
 # Онлайн Центр Крови в Кыргызстане
 
-## Бесплатный онлайн ресурс, где нуждающийся в крови смогут найти доноров.
-
-### Requirements:
- 
-1. php: >=5.5.9
-2. symfony: 2.7.*
-
-
+![alt tag](https://img.shields.io/badge/php-5.5.9-brightgreen.svg)
+![alt tag](https://img.shields.io/badge/symfony-2.7-yellowgreen.svg)
+![alt tag](https://img.shields.io/badge/status-stable-yellow.svg)
 
 ### Getting started (Service)
 
